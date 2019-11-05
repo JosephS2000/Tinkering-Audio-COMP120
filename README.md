@@ -1,5 +1,11 @@
-# Tinkering-Audio-COMP120
-The repository for our Tinkering Graphics assessment.
+# Tinkering-Audio-COMP120 Assignment
+The repository for our Tinkering Graphics assessment, by Joseph Spaul and Jamie Hilton.
+
+This repository is for our work for the Tinking Audio assignment, from the COMP120 module of our Computing for Games course at Falmouth University. We have approached the tasks by each choosing which contract we will both undertake.
+
+## Instructions
+
+Unity is required in order to run both of the programs.
 
 
 ## Contract 1
