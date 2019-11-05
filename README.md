@@ -25,3 +25,5 @@ game’s setting. Think something like SyrinScape! A variety of settings that
 should be configurable by a designer and allow them to vary ambience of
 each level, ideally each zone within a level.
 
+## Licensing Infromation 
+
