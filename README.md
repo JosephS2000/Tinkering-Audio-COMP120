@@ -26,4 +26,4 @@ should be configurable by a designer and allow them to vary ambience of
 each level, ideally each zone within a level.
 
 ## Licensing Infromation 
-
+We have chosen "GNU General Public Licence v3.0" this means that it allows anyone to use it, copywrite free. This also allows anyone to do what they like with the code. Distributers whether free or paid have a responcibility to make sure that the people they are distributing it to are aware that the licensing agreement and are given full access to everything the distributers had access to. This licensing agreement allows anyone access to the program and change them as they wish, this means it's as open source as possible and allows the highest amount of access to as many people as possible.
