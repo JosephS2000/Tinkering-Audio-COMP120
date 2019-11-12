@@ -5,7 +5,7 @@ This repository is for our work for the Tinking Audio assignment, from the COMP1
 
 ## Instructions
 
-Unity is required in order to run both of the programs.
+Unity Version 2018.4.2f (64-bit) is required in order to run both of the programs.
 
 
 ## Contract 1
@@ -27,3 +27,6 @@ each level, ideally each zone within a level.
 
 ## Licensing Infromation 
 We have chosen "GNU General Public Licence v3.0" this means that it allows anyone to use it, copywrite free. This also allows anyone to do what they like with the code. Distributers whether free or paid have a responcibility to make sure that the people they are distributing it to are aware that the licensing agreement and are given full access to everything the distributers had access to. This licensing agreement allows anyone access to the program and change them as they wish, this means it's as open source as possible and allows the highest amount of access to as many people as possible. We have chosen the GNU License becasue we want to have a policy of share and share alike. GNU is different from other lincences. For instance, the MIT licence  requires the distributor to add a copy of the licence, along side a copyright notice to whomever they distribute the program to. While with GNU, the distributor must only provide the source code when they provide the program.
+
+
+## References 
