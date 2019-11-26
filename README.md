@@ -3,6 +3,9 @@ The repository for our Tinkering Graphics assessment, by Joseph Spaul and Jamie 
 
 This repository is for our work on the Tinking Audio assignment, from the COMP120 module of our Computing for Games course at Falmouth University. We have approached the tasks by each choosing which contract we will both undertake alone.
 
+## Repo Link
+https://github.com/JosephS2000/Tinkering-Audio-COMP120
+
 ## Instructions
 
 Unity Version 2018.4.2f (64-bit) is required in order to run both of these programs.
