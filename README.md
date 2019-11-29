@@ -23,4 +23,8 @@ It has been decided that you need to make a tool which will generate ambient aud
 We have chosen "GNU General Public Licence v3.0" this means that it allows anyone to use it, copyright free. This also allows anyone to do what they like with the code. Distributors whether free, or bought have a responsibility to make sure that the people who they are distributing it to are aware of the licensing agreement and are given full access to everything the distributers had access to. This licensing agreement allows anyone access to the program and change them as they wish, this means it's as open source as possible and allows the highest amount of access to as many people as possible. We have chosen the GNU License becasue we want to have a policy of share and share alike. GNU is different from other lincences. For instance, the MIT licence  requires the distributor to add a copy of the licence, along side a copyright notice to whomever they distribute the program to. While with GNU, the distributor must only provide the source code when they provide the program.
 
 ## References 
-Audio files used for sound effects are free assets from the Unity store.
+
+Contract 1:
+
+Audio files used for sound effects are free assets from the Unity store and the internet. The Free assets I got were in the file "8-Bit Style Sound Effects". I only used two sounds from it and deleted the rest becasue I didnt need them. Seeing as the Assets are free and i'm not using this project for comercial purposes, i'm allowed to use thes assets. The "cash" sound that is played in the game was originally called "Till With Bell.wav", was downloaded from freesound.org and is credited to Benboncan. It's under the Attribution License, this allows me to build upon, distribute and adapt it to whatever I want. I could even distribute it commercially, but I could only do these things if I give credit to the original author of the file.
+
