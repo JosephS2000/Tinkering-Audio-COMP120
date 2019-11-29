@@ -9,7 +9,7 @@ https://github.com/JosephS2000/Tinkering-Audio-COMP120
 ## Instructions
 
 Unity Version 2018.4.2f (64-bit) is required in order to run both of these programs.
-For contract 1, the relevant pieces of code reside in the "CaptureFish", "PlayerAiming" and "SlowFish" scripts. These scripts can be found in the Scripts folder of Joseph Spaul - Tinkering Audio. (Please note, I added my Tinkering Audio code to a project that I completed in a group previously and the "PlayerAiming" script was authored by Joseph Broughton)
+For contract 1, the relevant pieces of code reside in the "CaptureFish", "PlayerAiming" and "SlowFish" scripts. These scripts can be found in the Scripts folder of Joseph Spaul - Tinkering Audio. (Please note, I added my Tinkering Audio code to a project that I completed in a group previously, the "PlayerAiming" script was created by Joseph Broughton and I just added in the audio)
 
 ## Contract 1 by Joseph Spaul
 
