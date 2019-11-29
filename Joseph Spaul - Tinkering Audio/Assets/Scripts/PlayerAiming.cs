@@ -47,6 +47,8 @@ public class PlayerAiming : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            fireSound.pitch = Random.Range(1, 4);
+            fireSound.reverbZoneMix = Random.Range(0, 2);
             fireSound.Play();
             float distance = difference.magnitude;
             Vector2 direction = difference / distance;

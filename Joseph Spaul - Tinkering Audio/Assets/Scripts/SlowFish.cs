@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class SlowFish : MonoBehaviour
 {
-    // Added Audio to fish getting hit
-    public AudioClip Hurt;
+    public AudioSource hurt;
 
+    void Start()
+    {
+        hurt = GetComponent<AudioSource>();
+    }
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Projectile")
         {
-            AudioSource.PlayClipAtPoint(Hurt, transform.position);
+            hurt.pitch = Random.Range(1, 4);
+            hurt.reverbZoneMix = Random.Range(0, 2);
+            hurt.panStereo = Random.Range(-2, 2);
+            hurt.Play();
             gameObject.GetComponent<FishMoving>().speed = 0;
         }
     }
