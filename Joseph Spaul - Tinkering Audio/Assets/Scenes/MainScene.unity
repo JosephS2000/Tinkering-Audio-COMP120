@@ -47774,6 +47774,11 @@ PrefabInstance:
       propertyPath: cash
       value: 
       objectReference: {fileID: 8300000, guid: dae326db1bc76e340a5a9a9e8db0bdf7, type: 3}
+    - target: {fileID: 6631189764411536793, guid: 3edf01807dd97d847a4876f40b4ceda5,
+        type: 3}
+      propertyPath: cashSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dae326db1bc76e340a5a9a9e8db0bdf7, type: 3}
     m_RemovedComponents:
     - {fileID: 6160517876530923080, guid: 3edf01807dd97d847a4876f40b4ceda5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3edf01807dd97d847a4876f40b4ceda5, type: 3}

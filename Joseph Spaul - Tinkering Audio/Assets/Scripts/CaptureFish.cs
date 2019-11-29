@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class CaptureFish : MonoBehaviour
 {
-    //Delcaring publis variable cash
+    //Delcaring public variable cash and private fishTag and fishScore
     public AudioClip cashSound;
+    private string fishTag;
+    private int fishScore;
 
     // Implementing collision method
     void OnCollisionEnter2D(Collision2D col)
@@ -14,27 +16,31 @@ public class CaptureFish : MonoBehaviour
         // If the the object that this script is attached to collides with Blackfish, it will run this if statment
         if (col.gameObject.tag == "BlackFish")
         {
-            // It will play the cashSound, it will add 10 to the score and it will destroy the gameObject BlackFish
-            AudioSource.PlayClipAtPoint(cashSound, transform.position);
-            ScoreScript.scoreValue += 10;
-            Destroy(col.gameObject);
+            //Setting the fishTag and fishScore variables to their appropriate amounts
+            fishTag = "BlackFish";
+            fishScore = 10;
         }
 
         // If the the object that this script is attached to collides with Redfish, it will run this if statment
         if (col.gameObject.tag == "RedFish")
         {
-            // It will play the cashSound, it will add 10 to the score and it will destroy the gameObject RedFish
-            AudioSource.PlayClipAtPoint(cashSound, transform.position);
-            ScoreScript.scoreValue += 5;
-            Destroy(col.gameObject);
+            fishTag = "RedFish";
+            fishScore = 5;
         }
 
-        // If the the object that this script is attached to collides with Redfish, it will run this if statment
+        // If the the object that this script is attached to collides with Yellowfish, it will run this if statment
         if (col.gameObject.tag == "YellowFish")
         {
-            // It will play the cashSound, it will add 10 to the score and it will destroy the gameObject RedFish
+            fishTag = "YellowFish";
+            fishScore = 1;
+        }
+
+        // With the fishTag set, this if statment will run appropriatly and give the correct score value for each fish
+        if (col.gameObject.tag == fishTag)
+        {
+            // It will play the cashSound, it will add the correct amount to the score and it will destroy the correct fish
             AudioSource.PlayClipAtPoint(cashSound, transform.position);
-            ScoreScript.scoreValue += 1;
+            ScoreScript.scoreValue += fishScore;
             Destroy(col.gameObject);
         }
     }

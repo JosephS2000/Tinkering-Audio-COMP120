@@ -12,6 +12,7 @@ public class PlayerAiming : MonoBehaviour
     public float projectileSpeed;
     public float minRot;
     public float maxRot;
+    //Added variable with an appropriate name 
     public AudioSource fireSound;
 
     private Vector3 target;
@@ -20,7 +21,7 @@ public class PlayerAiming : MonoBehaviour
     private void Start()
     {
         Cursor.visible = false;
-        // Added Audio to the player shooting
+        // Referencing audio source
         fireSound = GetComponent<AudioSource>();
     }
 
@@ -47,9 +48,12 @@ public class PlayerAiming : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            //Randomly chnages the pitch and the reverb of the sound that is played when the mouse button is pressed
             fireSound.pitch = Random.Range(1, 4);
             fireSound.reverbZoneMix = Random.Range(0, 2);
+            //Plays the appropriate sound when the mouse button is pressed
             fireSound.Play();
+
             float distance = difference.magnitude;
             Vector2 direction = difference / distance;
             direction.Normalize();
